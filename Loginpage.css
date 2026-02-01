@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(Apprendre\ le\ Français.jpg);
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.login-form{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: brown;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 2em;
+    color:#fff;
+    text-align: center;
+
+}
+.input-box{
+    width: 310px;
+    margin: 30px 0;
+    border-bottom:2px solid #eee;
+    
+}
+input{
+    width: 290px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    
+}
+::placeholder{
+    color: #fff;
+}
+.check{
+    width: 15px;
+    height: 15px;
+    
+}
+.Icon{
+    color: #fff;
+}
+.remember-forget{
+    margin: -15px 0 15px;
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 310px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size:1em ;
+    font-weight: 500;
+}
+h5{
+    
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
